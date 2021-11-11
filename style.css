@@ -1,0 +1,168 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid lightgray;
+    background-color: #F5F5F5;
+    margin-bottom: 100px;
+    opacity: 0.9;
+} 
+.gg{  margin-bottom: 0px;
+    margin-top: 50px;
+    font-size: 65px;
+    letter-spacing: 2px;
+    line-height: 85px;
+    display: inline-block;
+    color: aquamarine;
+}
+    
+.logocontainer{
+    width: 50px;
+height: 50px    ;
+}
+
+.wp{margin-top: 20px;
+margin-bottom: 20px;
+font-weight: 400px;
+color:blueviolet;
+font-size: 21px;}
+
+.sp{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: crimson;
+}
+.container{
+    display: flex;
+   flex-wrap: wrap;
+   height: 1500px;
+}
+
+.mother{
+   max-width: 1500px;
+   margin: 0 auto;
+   height: 100%;
+   
+}
+
+.logo{
+   width: 140%;
+    margin-top: 30px;
+    height: 120%;
+}
+
+.check{
+    background-color: #0084ff;
+    color: antiquewhite;
+    border: none;
+    border-radius: 48px;
+    padding: 2px 20px 0;
+    height: 60px;
+    font-size: 20px;
+}
+.menuitem{
+color: inherit;
+text-decoration: none;
+font-size: 23px;
+display: inline-block;
+margin-left: 20px;
+text-align: center;
+margin-right: 100px;
+}
+
+.menuitem:hover{
+    border-bottom-style: solid;
+}
+
+.block{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    width: 300px;
+    background-color: #F5F5F5;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.photo{
+    width: 240px;
+    height: 80px;
+}
+.stuck{ width: 600px;
+height: 500px;
+
+
+}
+.left{
+    display: inline-block;
+    width: 50%
+
+}
+.right{
+    display:inline-block;
+    width: 50%;
+}
+.bottom{
+text-align: center;
+    font-size: 23px;
+  padding: 50px;
+background-color:#E250AC ;
+}
+.pp{
+    height: 43px;
+    width: 125px;
+    
+}
+
+.vector{
+    display: none;
+}
+
+@media (max-width:1000px){
+    .header{
+        display: none   ;
+        width: 40%;
+    }
+.vector{
+    display: block;
+}
+.left{
+    width: 100%;
+    margin-bottom: 200px;
+}
+.right{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.inner{
+    margin: 0px auto;
+    width: 80%;
+}
+.stuck{
+    margin: 0px -50%;
+}
+}
+@media (max-width: 375px) {
+    .inner{
+        width: 95%;
+    }
+        .bottom{
+            font-size: 20px;
+        padding: 10px;
+        margin-top: 30px;
+ }
+}
